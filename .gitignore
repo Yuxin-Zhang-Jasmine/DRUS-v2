@@ -1,0 +1,7 @@
+.vscode
+.idea/
+__pycache__/
+*.pth
+DRUS-v2/exp/logs/
+Observation_SVDresults/SVD/
+backup/
