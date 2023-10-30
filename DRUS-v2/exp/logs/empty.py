@@ -1,1 +1,1 @@
-The diffusion model checkpoints are saved here.
+# The diffusion model checkpoints are saved in this directory.
