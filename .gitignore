@@ -2,6 +2,9 @@
 .idea/
 __pycache__/
 *.pth
-DRUS-v2/exp/logs/
-Observation_SVDresults/SVD/
+DRUS-v2/exp/logs/CAROTIDcross/
+DRUS-v2/exp/logs/vitro/
+DRUS-v2/exp/logs/vivo/
+Observation_SVDresults/SVD/01_simulation/
+Observation_SVDresults/SVD/02_picmus/
 backup/
