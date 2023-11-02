@@ -8,8 +8,8 @@ The structure of the repository is:
 │   │   ├──<image_samples>  
 │   │   ├──<logs>             # the fined-tuned diffusion models, can be downloaded from:
 │   │   │   ├──<vitro>        # https://uncloud.univ-nantes.fr/index.php/s/BRbDYsq2CNjJgoR
-│   │   │   ├──<vivo>         # https://uncloud.univ-nantes.fr/index.php/s/2ERmi5LBXjxatnC
-│   │   │   ├──<CAROTIDcross> # https://uncloud.univ-nantes.fr/index.php/s/K3cHmRgSq4kxEY7
+│   │   │   ├──<vivo>         # https://uncloud.univ-nantes.fr/index.php/s/FJAtmeN6QXaj6yD
+│   │   │   ├──<CAROTIDcross> # https://uncloud.univ-nantes.fr/index.php/s/e53P2LboafkzimH
 │   │   ├──<slurms>           # the job example/template if use HPC
 │   ├── <functions>
 │   ├── <guided_diffusion>
