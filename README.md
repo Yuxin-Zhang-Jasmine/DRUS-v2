@@ -6,8 +6,11 @@ The structure of the repository is:
 │   ├── <configs> 
 │   ├── <exp>  
 │   │   ├──<image_samples>  
-│   │   ├──<logs>           # the fined-tuned diffusion models, can be downloaded [here](xxxxxxxxxxxxxxx)
-│   │   ├──<slurms>         # the job example/template if use HPC
+│   │   ├──<logs>             # the fined-tuned diffusion models, can be downloaded from:
+│   │   │   ├──<vitro>        # https://uncloud.univ-nantes.fr/index.php/s/BRbDYsq2CNjJgoR
+│   │   │   ├──<vivo>         # https://uncloud.univ-nantes.fr/index.php/s/2ERmi5LBXjxatnC
+│   │   │   ├──<CAROTIDcross> # https://uncloud.univ-nantes.fr/index.php/s/K3cHmRgSq4kxEY7
+│   │   ├──<slurms>           # the job example/template if use HPC
 │   ├── <functions>
 │   ├── <guided_diffusion>
 │   ├── <runners>  
@@ -15,11 +18,11 @@ The structure of the repository is:
 │   │ 
 ├── <Observation_SVDresults> 
 │   ├── <Observation> 
-│   │   ├──<01_simulation>  # the simulated fetus measurements (for discussion)
-│   │   ├──<02_picmus>      # PICMUS measurements (for experiments)
-│   ├── <SVD>               # can be downloaded [here](xxxxxxxxxxxxxxx),
-│   │   ├──<01_simulation>  
-│   │   ├──<02_picmus>  
+│   │   ├──<01_simulation>    # the simulated fetus measurements (for discussion)
+│   │   ├──<02_picmus>        # PICMUS measurements (for experiments)
+│   ├── <SVD>                 # can be downloaded from: 
+│   │   ├──<01_simulation>    # https://drive.google.com/drive/folders/1mCMaL6OR9mLvoRaQxmeWGLnUADYU32KF?usp=sharing
+│   │   ├──<02_picmus>        # https://drive.google.com/drive/folders/10KwoH5G-s8Gk_aCj7WxTZ_L3596u44dI?usp=sharing
 │   ├──compute_discussionSimu_Hty.m  # the script for computing the fetus measurements
 │   ├──compute_mainDRUS_svdBH.m      # the script for computing the PICMUS DRUS SVD(BH)
 │   ├──compute_mainDRUS_By.m         # the script for computing the PICMUS DRUS measurements
@@ -39,7 +42,7 @@ All the results and the scripts for showing the results is [here](https://unclou
 ```
 python main.py --ni --config {CONFIG.yml} --doc {MODELFOLDER} --ckpt {CKPT} --timesteps {STEPS} --deg {DEG} --image_folder {SAVEDIR} --matlab_path {MATLABPATH}
 ```
-where the following are options
+where
 - `CONFIG` is the name of the config file (see `DRUS-v2/configs/`), including hyperparameters such as batch size and network architectures.
 - `MODELFOLDER` is the name of the folder saving the diffusion model checkpoints 
 - `CKPT` is the name of the selected diffusion model checkpoint
